@@ -26,7 +26,8 @@ The project follows these steps:
 - Predicted RUL values were compared against actual RUL values.
 
 ## Results & Visualizations
-
+Sensor 9 vs Cycles for all engines
+![Sensor 9 vs Cycles (All Engines)](Images/Sensor_9 LifeCycle (Global Representation).png)
 
 ## Conclusion
 The predictive maintenance model successfully forecasts the RUL of turbofan engines with reasonable accuracy. The use of time-series features and robust anomaly handling improved the model's performance. However, there is room for improvement in handling noise and capturing complex trends.
