@@ -25,9 +25,21 @@ The project follows these steps:
 - Performance metrics like MSE, RMSE, MAE, MAPE, and R² were calculated.
 - Predicted RUL values were compared against actual RUL values.
 
-## Results & Visualizations
-Sensor 9 vs Cycles for all engines
-![Sensor 9 vs Cycles (All Engines)](Images/Sensor_9 LifeCycle (Global Representation).png)
+## Data Visuals
+#### Subplot of *Sensors vs Cycles* for All Engines
+![Sensors vs Cycles (All Engines)](https://github.com/STBreeze/Predictive-Maintenance-model-for-the-NASA-Turbofan-Engine-Challenge/blob/main/Images/SubPlot_All%20Sensors%20LifeCycle%20(Global%20Representation)_Train%20Set.png?raw=true)
+#### Anomalies Present vs Anomalies Handled (Ex: Engine 12, Sensor 9)
+![Anomalies Present](https://github.com/STBreeze/Predictive-Maintenance-model-for-the-NASA-Turbofan-Engine-Challenge/blob/main/Images/Engine%2012_Sensor%209_Anomaly%20Plot.png?raw=true)
+![Anomaly Handled](https://github.com/STBreeze/Predictive-Maintenance-model-for-the-NASA-Turbofan-Engine-Challenge/blob/main/Images/Engine%2012_Sensor%209_Anomaly%20Handled%20Plot.png?raw=true)
+#### Actual vs Predicted RULs (All Engines)
+![Actual vs Predicted RULs](https://github.com/STBreeze/Predictive-Maintenance-model-for-the-NASA-Turbofan-Engine-Challenge/blob/main/Images/Actual%20vs%20Predicted%20RULs_Max%20LifeCycle.png?raw=true)
+
+## Results
+- Mean Squared Error (MSE): 661.31
+- Root Mean Squared Error (RMSE): 25.72
+- Mean Absolute Error (MAE): 19.41
+- Mean Absolute Percentage Error (MAPE): 0.31
+- R² Score: 0.62
 
 ## Conclusion
 The predictive maintenance model successfully forecasts the RUL of turbofan engines with reasonable accuracy. The use of time-series features and robust anomaly handling improved the model's performance. However, there is room for improvement in handling noise and capturing complex trends.
